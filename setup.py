@@ -9,7 +9,7 @@ with open('README.rst') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
-    license = f.read()
+    this_license = f.read()
 
 setup(
     name='das_workflows',
@@ -19,7 +19,6 @@ setup(
     author='Jan Kloppenburg',
     author_email='jank@numphys.org',
     url='https://github.com/janklinux/das_workflows',
-    license=license,
+    license=this_license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
-
