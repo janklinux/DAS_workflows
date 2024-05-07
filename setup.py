@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
-    version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    name='das_workflows',
+    version='1.0.0',
+    description='Package for development of turbogap workflows in DAS group @aalto',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Jan Kloppenburg',
+    author_email='jank@numphys.org',
+    url='https://github.com/janklinux/das_workflows',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
